@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA7A8AB1D112CBC004A9C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */; };
+		AAA7A8AD1D112CBC004A9C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */; };
+		AAA7A8B01D112CBC004A9C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA7A8AE1D112CBC004A9C44 /* Main.storyboard */; };
+		AAA7A8B21D112CBC004A9C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA7A8B11D112CBC004A9C44 /* Assets.xcassets */; };
+		AAA7A8B51D112CBC004A9C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA7A8B31D112CBC004A9C44 /* LaunchScreen.storyboard */; };
+		AAA7A8C01D112CBC004A9C44 /* CrypticMuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8BF1D112CBC004A9C44 /* CrypticMuseTests.swift */; };
+		AAA7A8CB1D112CBC004A9C44 /* CrypticMuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8CA1D112CBC004A9C44 /* CrypticMuseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA7A8BC1D112CBC004A9C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA7A89F1D112CBC004A9C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA7A8A61D112CBC004A9C44;
+			remoteInfo = CrypticMuse;
+		};
+		AAA7A8C71D112CBC004A9C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA7A89F1D112CBC004A9C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA7A8A61D112CBC004A9C44;
+			remoteInfo = CrypticMuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA7A8A71D112CBC004A9C44 /* CrypticMuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrypticMuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA7A8AF1D112CBC004A9C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA7A8B11D112CBC004A9C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA7A8B41D112CBC004A9C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA7A8B61D112CBC004A9C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA7A8BB1D112CBC004A9C44 /* CrypticMuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypticMuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA7A8BF1D112CBC004A9C44 /* CrypticMuseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypticMuseTests.swift; sourceTree = "<group>"; };
+		AAA7A8C11D112CBC004A9C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA7A8C61D112CBC004A9C44 /* CrypticMuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypticMuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA7A8CA1D112CBC004A9C44 /* CrypticMuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypticMuseUITests.swift; sourceTree = "<group>"; };
+		AAA7A8CC1D112CBC004A9C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA7A8A41D112CBC004A9C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8B81D112CBC004A9C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8C31D112CBC004A9C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA7A89E1D112CBC004A9C44 = {
+			isa = PBXGroup;
+			children = (
+				AAA7A8A91D112CBC004A9C44 /* CrypticMuse */,
+				AAA7A8BE1D112CBC004A9C44 /* CrypticMuseTests */,
+				AAA7A8C91D112CBC004A9C44 /* CrypticMuseUITests */,
+				AAA7A8A81D112CBC004A9C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA7A8A81D112CBC004A9C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7A8A71D112CBC004A9C44 /* CrypticMuse.app */,
+				AAA7A8BB1D112CBC004A9C44 /* CrypticMuseTests.xctest */,
+				AAA7A8C61D112CBC004A9C44 /* CrypticMuseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA7A8A91D112CBC004A9C44 /* CrypticMuse */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */,
+				AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */,
+				AAA7A8AE1D112CBC004A9C44 /* Main.storyboard */,
+				AAA7A8B11D112CBC004A9C44 /* Assets.xcassets */,
+				AAA7A8B31D112CBC004A9C44 /* LaunchScreen.storyboard */,
+				AAA7A8B61D112CBC004A9C44 /* Info.plist */,
+			);
+			path = CrypticMuse;
+			sourceTree = "<group>";
+		};
+		AAA7A8BE1D112CBC004A9C44 /* CrypticMuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7A8BF1D112CBC004A9C44 /* CrypticMuseTests.swift */,
+				AAA7A8C11D112CBC004A9C44 /* Info.plist */,
+			);
+			path = CrypticMuseTests;
+			sourceTree = "<group>";
+		};
+		AAA7A8C91D112CBC004A9C44 /* CrypticMuseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7A8CA1D112CBC004A9C44 /* CrypticMuseUITests.swift */,
+				AAA7A8CC1D112CBC004A9C44 /* Info.plist */,
+			);
+			path = CrypticMuseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA7A8A61D112CBC004A9C44 /* CrypticMuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA7A8CF1D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuse" */;
+			buildPhases = (
+				AAA7A8A31D112CBC004A9C44 /* Sources */,
+				AAA7A8A41D112CBC004A9C44 /* Frameworks */,
+				AAA7A8A51D112CBC004A9C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrypticMuse;
+			productName = CrypticMuse;
+			productReference = AAA7A8A71D112CBC004A9C44 /* CrypticMuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA7A8BA1D112CBC004A9C44 /* CrypticMuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA7A8D21D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuseTests" */;
+			buildPhases = (
+				AAA7A8B71D112CBC004A9C44 /* Sources */,
+				AAA7A8B81D112CBC004A9C44 /* Frameworks */,
+				AAA7A8B91D112CBC004A9C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA7A8BD1D112CBC004A9C44 /* PBXTargetDependency */,
+			);
+			name = CrypticMuseTests;
+			productName = CrypticMuseTests;
+			productReference = AAA7A8BB1D112CBC004A9C44 /* CrypticMuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA7A8C51D112CBC004A9C44 /* CrypticMuseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA7A8D51D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuseUITests" */;
+			buildPhases = (
+				AAA7A8C21D112CBC004A9C44 /* Sources */,
+				AAA7A8C31D112CBC004A9C44 /* Frameworks */,
+				AAA7A8C41D112CBC004A9C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA7A8C81D112CBC004A9C44 /* PBXTargetDependency */,
+			);
+			name = CrypticMuseUITests;
+			productName = CrypticMuseUITests;
+			productReference = AAA7A8C61D112CBC004A9C44 /* CrypticMuseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA7A89F1D112CBC004A9C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "david kilmer";
+				TargetAttributes = {
+					AAA7A8A61D112CBC004A9C44 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AAA7A8BA1D112CBC004A9C44 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA7A8A61D112CBC004A9C44;
+					};
+					AAA7A8C51D112CBC004A9C44 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA7A8A61D112CBC004A9C44;
+					};
+				};
+			};
+			buildConfigurationList = AAA7A8A21D112CBC004A9C44 /* Build configuration list for PBXProject "CrypticMuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA7A89E1D112CBC004A9C44;
+			productRefGroup = AAA7A8A81D112CBC004A9C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA7A8A61D112CBC004A9C44 /* CrypticMuse */,
+				AAA7A8BA1D112CBC004A9C44 /* CrypticMuseTests */,
+				AAA7A8C51D112CBC004A9C44 /* CrypticMuseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA7A8A51D112CBC004A9C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA7A8B51D112CBC004A9C44 /* LaunchScreen.storyboard in Resources */,
+				AAA7A8B21D112CBC004A9C44 /* Assets.xcassets in Resources */,
+				AAA7A8B01D112CBC004A9C44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8B91D112CBC004A9C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8C41D112CBC004A9C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA7A8A31D112CBC004A9C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA7A8AD1D112CBC004A9C44 /* ViewController.swift in Sources */,
+				AAA7A8AB1D112CBC004A9C44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8B71D112CBC004A9C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA7A8C01D112CBC004A9C44 /* CrypticMuseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA7A8C21D112CBC004A9C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA7A8CB1D112CBC004A9C44 /* CrypticMuseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA7A8BD1D112CBC004A9C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA7A8A61D112CBC004A9C44 /* CrypticMuse */;
+			targetProxy = AAA7A8BC1D112CBC004A9C44 /* PBXContainerItemProxy */;
+		};
+		AAA7A8C81D112CBC004A9C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA7A8A61D112CBC004A9C44 /* CrypticMuse */;
+			targetProxy = AAA7A8C71D112CBC004A9C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAA7A8AE1D112CBC004A9C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA7A8AF1D112CBC004A9C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA7A8B31D112CBC004A9C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA7A8B41D112CBC004A9C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA7A8CD1D112CBC004A9C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA7A8CE1D112CBC004A9C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA7A8D01D112CBC004A9C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrypticMuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAA7A8D11D112CBC004A9C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrypticMuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAA7A8D31D112CBC004A9C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrypticMuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrypticMuse.app/CrypticMuse";
+			};
+			name = Debug;
+		};
+		AAA7A8D41D112CBC004A9C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrypticMuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrypticMuse.app/CrypticMuse";
+			};
+			name = Release;
+		};
+		AAA7A8D61D112CBC004A9C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrypticMuseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrypticMuse;
+			};
+			name = Debug;
+		};
+		AAA7A8D71D112CBC004A9C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrypticMuseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrypticMuse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA7A8A21D112CBC004A9C44 /* Build configuration list for PBXProject "CrypticMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA7A8CD1D112CBC004A9C44 /* Debug */,
+				AAA7A8CE1D112CBC004A9C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA7A8CF1D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA7A8D01D112CBC004A9C44 /* Debug */,
+				AAA7A8D11D112CBC004A9C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA7A8D21D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA7A8D31D112CBC004A9C44 /* Debug */,
+				AAA7A8D41D112CBC004A9C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA7A8D51D112CBC004A9C44 /* Build configuration list for PBXNativeTarget "CrypticMuseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA7A8D61D112CBC004A9C44 /* Debug */,
+				AAA7A8D71D112CBC004A9C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA7A89F1D112CBC004A9C44 /* Project object */;
+}
