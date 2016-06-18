@@ -24,12 +24,30 @@ class ViewController: UIViewController {
   }
   
   @IBAction func hiddenSearch(_ sender: AnyObject) {
+    if let term = searchTextField.text {
+      let res = Hidden.search(term: term)
+      for s in res {
+        print(s)
+      }
+    }
   }
   
   @IBAction func deletionSearch(_ sender: AnyObject) {
+    if let term = searchTextField.text {
+      let res = Deletion.search(term: term)
+      for s in res {
+        print(s)
+      }
+    }
   }
 
   @IBAction func wildcardSearch(_ sender: AnyObject) {
+    if let term = searchTextField.text {
+      let res = Wildcard.search(term: term)
+      for s in res {
+        print(s)
+      }
+    }    
   }
   
   @IBAction func indicatorSearch(_ sender: AnyObject) {

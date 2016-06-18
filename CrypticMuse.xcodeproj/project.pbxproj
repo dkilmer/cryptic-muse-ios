@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AA1863461D136F61003BE950 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1863451D136F61003BE950 /* libsqlite3.tbd */; };
-		AA18634B1D137004003BE950 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1863481D137004003BE950 /* SQLiteDB.swift */; };
-		AA18634C1D137004003BE950 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1863491D137004003BE950 /* SQLTable.swift */; };
-		AA18634D1D137004003BE950 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18634A1D137004003BE950 /* String-Extras.swift */; };
 		AA2CA8671D12500300364767 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CA8661D12500300364767 /* ResultsViewController.swift */; };
 		AA2CA8691D125A3700364767 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = AA2CA8681D125A3700364767 /* data.db */; };
+		AA94B63A1D13890A00F902D7 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B6371D13890A00F902D7 /* SQLiteDB.swift */; };
+		AA94B63B1D13890A00F902D7 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B6381D13890A00F902D7 /* SQLTable.swift */; };
+		AA94B63C1D13890A00F902D7 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B6391D13890A00F902D7 /* String-Extras.swift */; };
+		AA94B63E1D139BDF00F902D7 /* Combos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B63D1D139BDF00F902D7 /* Combos.swift */; };
+		AA94B6401D13A61300F902D7 /* CalcWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B63F1D13A61300F902D7 /* CalcWord.swift */; };
+		AA94B6421D13A69E00F902D7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94B6411D13A69E00F902D7 /* Word.swift */; };
 		AAA7A8AB1D112CBC004A9C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */; };
 		AAA7A8AD1D112CBC004A9C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */; };
 		AAA7A8B01D112CBC004A9C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA7A8AE1D112CBC004A9C44 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 		AAA7A8B51D112CBC004A9C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA7A8B31D112CBC004A9C44 /* LaunchScreen.storyboard */; };
 		AAA7A8C01D112CBC004A9C44 /* CrypticMuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8BF1D112CBC004A9C44 /* CrypticMuseTests.swift */; };
 		AAA7A8CB1D112CBC004A9C44 /* CrypticMuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7A8CA1D112CBC004A9C44 /* CrypticMuseUITests.swift */; };
+		AAC887081D14E579004F99AE /* Wildcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC887071D14E579004F99AE /* Wildcard.swift */; };
+		AAC8870A1D14EC2A004F99AE /* Deletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC887091D14EC2A004F99AE /* Deletion.swift */; };
+		AAC8870C1D14FD79004F99AE /* Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8870B1D14FD79004F99AE /* Hidden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +48,14 @@
 /* Begin PBXFileReference section */
 		AA1863451D136F61003BE950 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		AA1863471D137004003BE950 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		AA1863481D137004003BE950 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
-		AA1863491D137004003BE950 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
-		AA18634A1D137004003BE950 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
 		AA2CA8661D12500300364767 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		AA2CA8681D125A3700364767 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		AA94B6371D13890A00F902D7 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		AA94B6381D13890A00F902D7 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		AA94B6391D13890A00F902D7 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		AA94B63D1D139BDF00F902D7 /* Combos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combos.swift; sourceTree = "<group>"; };
+		AA94B63F1D13A61300F902D7 /* CalcWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcWord.swift; sourceTree = "<group>"; };
+		AA94B6411D13A69E00F902D7 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		AAA7A8A71D112CBC004A9C44 /* CrypticMuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrypticMuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +69,9 @@
 		AAA7A8C61D112CBC004A9C44 /* CrypticMuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypticMuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA7A8CA1D112CBC004A9C44 /* CrypticMuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypticMuseUITests.swift; sourceTree = "<group>"; };
 		AAA7A8CC1D112CBC004A9C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC887071D14E579004F99AE /* Wildcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wildcard.swift; sourceTree = "<group>"; };
+		AAC887091D14EC2A004F99AE /* Deletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deletion.swift; sourceTree = "<group>"; };
+		AAC8870B1D14FD79004F99AE /* Hidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +135,21 @@
 				AAA7A8AA1D112CBC004A9C44 /* AppDelegate.swift */,
 				AAA7A8AC1D112CBC004A9C44 /* ViewController.swift */,
 				AA1863471D137004003BE950 /* Bridging-Header.h */,
-				AA1863481D137004003BE950 /* SQLiteDB.swift */,
-				AA1863491D137004003BE950 /* SQLTable.swift */,
-				AA18634A1D137004003BE950 /* String-Extras.swift */,
+				AA94B6371D13890A00F902D7 /* SQLiteDB.swift */,
+				AA94B6381D13890A00F902D7 /* SQLTable.swift */,
+				AA94B6391D13890A00F902D7 /* String-Extras.swift */,
 				AAA7A8AE1D112CBC004A9C44 /* Main.storyboard */,
 				AAA7A8B11D112CBC004A9C44 /* Assets.xcassets */,
 				AAA7A8B31D112CBC004A9C44 /* LaunchScreen.storyboard */,
 				AAA7A8B61D112CBC004A9C44 /* Info.plist */,
 				AA2CA8661D12500300364767 /* ResultsViewController.swift */,
 				AA2CA8681D125A3700364767 /* data.db */,
+				AA94B63D1D139BDF00F902D7 /* Combos.swift */,
+				AA94B63F1D13A61300F902D7 /* CalcWord.swift */,
+				AA94B6411D13A69E00F902D7 /* Word.swift */,
+				AAC887071D14E579004F99AE /* Wildcard.swift */,
+				AAC887091D14EC2A004F99AE /* Deletion.swift */,
+				AAC8870B1D14FD79004F99AE /* Hidden.swift */,
 			);
 			path = CrypticMuse;
 			sourceTree = "<group>";
@@ -289,12 +307,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC8870C1D14FD79004F99AE /* Hidden.swift in Sources */,
+				AA94B6401D13A61300F902D7 /* CalcWord.swift in Sources */,
+				AA94B63E1D139BDF00F902D7 /* Combos.swift in Sources */,
+				AA94B6421D13A69E00F902D7 /* Word.swift in Sources */,
 				AAA7A8AD1D112CBC004A9C44 /* ViewController.swift in Sources */,
-				AA18634D1D137004003BE950 /* String-Extras.swift in Sources */,
-				AA18634B1D137004003BE950 /* SQLiteDB.swift in Sources */,
+				AA94B63C1D13890A00F902D7 /* String-Extras.swift in Sources */,
+				AAC8870A1D14EC2A004F99AE /* Deletion.swift in Sources */,
+				AA94B63A1D13890A00F902D7 /* SQLiteDB.swift in Sources */,
 				AAA7A8AB1D112CBC004A9C44 /* AppDelegate.swift in Sources */,
+				AAC887081D14E579004F99AE /* Wildcard.swift in Sources */,
 				AA2CA8671D12500300364767 /* ResultsViewController.swift in Sources */,
-				AA18634C1D137004003BE950 /* SQLTable.swift in Sources */,
+				AA94B63B1D13890A00F902D7 /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "CrypticMuse/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -460,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkilmer.CrypticMuse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "CrypticMuse/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

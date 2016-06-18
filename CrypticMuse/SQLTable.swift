@@ -21,7 +21,7 @@ class SQLTable:NSObject {
 		return "id"
 	}
 	
-	func allRows<T:SQLTable>(order:String="") -> [T] {
+	func allRows<T:SQLTable>(_ order:String="") -> [T] {
 		var res = [T]()
 		self.data = values()
 		let db = SQLiteDB.sharedInstance()
@@ -29,8 +29,8 @@ class SQLTable:NSObject {
 		if !order.isEmpty {
 			sql += " ORDER BY \(order)"
 		}
-		let arr = db.query(sql)
-		for row in arr {
+		let arr = db?.query(sql)
+		for row in arr! {
 			let t = T(tableName:table)
 			for (key, _) in data {
 				let val = row[key]
@@ -49,21 +49,21 @@ class SQLTable:NSObject {
 		var insert = true
 		if let rid = data[key] {
 			let sql = "SELECT COUNT(*) AS count FROM \(table) WHERE \(primaryKey())=\(rid)"
-			let arr = db.query(sql)
-			if arr.count == 1 {
-				if let cnt = arr[0]["count"] as? Int {
+			let arr = db?.query(sql)
+			if arr?.count == 1 {
+				if let cnt = arr?[0]["count"] as? Int {
 					insert = (cnt == 0)
 				}
 			}
 		}
 		// Insert or update
 		let (sql, params) = getSQL(insert)
-		let rc = db.execute(sql, parameters:params)
+		let rc = db?.execute(sql, parameters:params)
 		let res = (rc != 0)
 		if !res {
 			NSLog("Error saving record!")
 		}
-		return (res, Int(rc))
+		return (res, Int(rc!))
 	}
 	
 //	private func properties() -> [String] {
@@ -79,7 +79,7 @@ class SQLTable:NSObject {
 	private func values() -> [String:AnyObject] {
 		var res = [String:AnyObject]()
 		let obj = Mirror(reflecting:self)
-		for (_, attr) in obj.children.enumerate() {
+		for (_, attr) in obj.children.enumerated() {
 			if let name = attr.label {
 				res[name] = getValue(attr.value as! AnyObject)
 			}
@@ -87,7 +87,7 @@ class SQLTable:NSObject {
 		return res
 	}
 	
-	private func getValue(val:AnyObject) -> AnyObject {
+	private func getValue(_ val:AnyObject) -> AnyObject {
 		if val is String {
 			return val as! String
 		} else if val is Int {
@@ -98,13 +98,13 @@ class SQLTable:NSObject {
 			return val as! Double
 		} else if val is Bool {
 			return val as! Bool
-		} else if val is NSDate {
-			return val as! NSDate
+		} else if val is Date {
+			return val as! Date
 		}
 		return "nAn"
 	}
 	
-	private func getSQL(forInsert:Bool = true) -> (String, [AnyObject]?) {
+	private func getSQL(_ forInsert:Bool = true) -> (String, [AnyObject]?) {
 		var sql = ""
 		var params:[AnyObject]? = nil
 		if forInsert {
